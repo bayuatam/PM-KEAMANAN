@@ -6,7 +6,7 @@
             <div class="col-lg-8">
                 <div class="text-center mb-5">
                     <h1 class="fw-bold">Tentang E-Ternak Polinela</h1>
-                    <p class="lead text-muted">Solusi Digital untuk Produk Peternakan Kampus</p>
+                    <p class="lead text-muted">Solusi Digitall untuk Produk Peternakan Kampus</p>
                 </div>
                 
                 <p><strong>E-Ternak Polinela</strong> adalah sebuah aplikasi e-commerce berbasis web yang dikembangkan sebagai Proyek Mandiri oleh mahasiswa Program Studi Manajemen Informatika, Politeknik Negeri Lampung. Aplikasi ini bertujuan untuk menjadi platform terpusat yang modern untuk promosi dan penjualan produk-produk peternakan yang dihasilkan oleh unit usaha di lingkungan Polinela.</p>
