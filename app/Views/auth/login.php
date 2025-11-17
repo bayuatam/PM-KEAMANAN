@@ -1,6 +1,6 @@
 <?= $this->extend('layouts/auth_layout') ?>
 
-<?= $this->section('title') ?>Login Penjual<?= $this->endSection() ?>
+<?= $this->section('title') ?>Login Penjuall<?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
 <div class="card" style="width: 25rem;">
