@@ -1,0 +1,171 @@
+/* Menggunakan font dari Google Fonts */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fdfcf8; /* Latar belakang putih-krem yang hangat */
+    padding-top: 70px; /* Beri ruang untuk navbar fixed-top */
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand strong {
+    font-family: 'Merriweather', serif;
+}
+
+/* --- Tampilan Kartu Produk (Minimalis) --- */
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    box-shadow: none;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.product-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.product-card .card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* --- Style Kartu Kategori (Warna Hijau) --- */
+.category-item {
+    transition: transform 0.2s ease;
+}
+.category-item:hover {
+    transform: translateY(-5px);
+}
+.category-icon-wrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #eafaf1; /* Latar belakang ikon hijau muda */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: background-color 0.2s ease;
+}
+.category-item:hover .category-icon-wrapper {
+    background-color: #d4f4e0; /* Warna hover lebih gelap */
+}
+/* Mengubah warna ikon menjadi hijau */
+.category-item .text-primary {
+    color: #198754 !important; /* Warna hijau */
+}
+
+
+/* --- Style untuk Hero Section (Latar Gambar) --- */
+.hero-section-image {
+    position: relative;
+    border-radius: 1.5rem;
+    padding: 6rem 4rem;
+    color: white;
+    /* Ganti URL ini dengan gambar Anda sendiri di /public/assets/images/ */
+background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/peternakan-banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.hero-section-image .btn-light {
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+}
+
+/* --- Latar Belakang Bagian Produk (Putih) --- */
+.product-section {
+    background-color: #ffffff; /* Latar putih agar kartu terlihat "pop" */
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+/* --- Sticky Footer --- */
+main {
+    flex: 1 0 auto;
+}
+
+/* --- CSS Responsif untuk Tabel Logistik --- */
+@media (max-width: 767px) {
+    .responsive-table thead {
+        display: none;
+    }
+    .responsive-table tr {
+        display: block;
+        margin-bottom: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 0.5rem;
+        padding: 1rem;
+    }
+    .responsive-table td {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        padding: 0.5rem 0;
+        text-align: right;
+    }
+    .responsive-table td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-align: left;
+        padding-right: 1rem;
+    }
+
+/* --- Style untuk Footer Baru --- */
+.footer-link {
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.footer-link:hover {
+    color: #0d6efd !important; /* Warna biru primary saat di-hover */
+    text-decoration: underline;
+}
+.btn-floating {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+/* --- Style untuk Halaman Lacak Pesanan (BARU) --- */
+.track-section {
+    background-color: #f8f9fa; /* Latar abu-abu muda */
+    padding: 4rem 0;
+    min-height: 70vh; /* Pastikan section ini mengisi ruang vertikal */
+    display: flex;
+    align-items: center;
+}
+
+.track-section .card {
+    border-radius: 1rem; /* Sudut lebih bulat */
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Style untuk Halaman Lacak Pesanan --- */
+.track-section {
+    background-color: #f8f9fa; /* Latar abu-abu muda */
+    padding: 4rem 0;
+    min-height: 70vh; 
+    display: flex;
+    align-items: center;
+}
+.track-section .card {
+    border-radius: 1rem; 
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Style untuk Halaman Checkout (BARU) --- */
+.checkout-section {
+    background-color: #fdfcf8; /* Latar putih-krem (sama seperti body) */
+    padding: 4rem 0;
+    min-height: 70vh;
+}
+.checkout-section .card {
+    border-radius: 1rem;
+    border: 1px solid #f0f0f0;
+}
+/* Mengubah warna radio button agar sesuai tema hijau */
+.form-check-input:checked {
+    background-color: #198754; /* Warna hijau success */
+    border-color: #198754;
+}
+}
