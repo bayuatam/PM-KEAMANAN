@@ -25,7 +25,7 @@
             <?php endforeach; ?>
         <?php else: ?>
             <div class="col-12 text-center">
-                <p class="text-muted fs-4">Oops, tidak ada produk yang ditemukan dalam kategori ini.</p>
+                <p class="text-muted fs-4">Tidak ada produk yang ditemukan dalam kategori ini.</p>
             </div>
         <?php endif; ?>
     </div>
