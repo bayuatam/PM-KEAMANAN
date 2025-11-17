@@ -13,6 +13,8 @@
 
                 <p>Latar belakang pengembangan aplikasi ini adalah untuk mengatasi metode pemasaran yang masih konvensional dan terbatas, seperti melalui pamflet dan WhatsApp, sehingga jangkauan informasi produk belum optimal.</p>
 
+                <p> Rifa Nabela Putra</p>
+                
                 <div class="card mt-5">
                     <div class="card-header">
                         <h5 class="mb-0">Tim Pengembang</h5>
