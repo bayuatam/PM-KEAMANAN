@@ -11,7 +11,7 @@
                 
                 <p><strong>E-Ternak Polinela</strong> adalah sebuah aplikasi e-commerce berbasis web yang dikembangkan sebagai Proyek Mandiri oleh mahasiswa Program Studi Manajemen Informatika, Politeknik Negeri Lampung. Aplikasi ini bertujuan untuk menjadi platform terpusat yang modern untuk promosi dan penjualan produk-produk peternakan yang dihasilkan oleh unit usaha di lingkungan Polinela.</p>
 
-                <p>Latar belakang pengembangan aplikasi ini adalah untuk mengatasi metode pemasaran yang masih konvensional dan terbatas, seperti melalui pamflet dan WhatsApp, sehingga jangkauan informasi produk belum optimal. Dengan adanya platform digital ini, diharapkan dapat meningkatkan efisiensi operasional bagi pengelola unit usaha, mempermudah civitas academica dalam mengakses dan membeli produk, serta memperkuat citra Polinela sebagai institusi vokasi yang inovatif dan adaptif terhadap teknologi.</p>
+                <p>Latar belakang ini pengembangan aplikasi ini adalah untuk mengatasi metode pemasaran yang masih konvensional dan terbatas, seperti melalui pamflet dan WhatsApp, sehingga jangkauan informasi produk belum optimal. Dengan adanya platform digital ini, diharapkan dapat meningkatkan efisiensi operasional bagi pengelola unit usaha, mempermudah civitas academica dalam mengakses dan membeli produk, serta memperkuat citra Polinela sebagai institusi vokasi yang inovatif dan adaptif terhadap teknologi.</p>
 
                 <div class="card mt-5">
                     <div class="card-header">
