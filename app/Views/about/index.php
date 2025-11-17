@@ -22,6 +22,7 @@
                         <li class="list-group-item">Rifa Nabela Putra. Sp (Backend Developer)</li>
                         <li class="list-group-item">Bayu Pratama (Database Engineer)</li>
                         <li class="list-group-item">Annisa Afrilia (Integrasi & Dokumentasi)</li>
+                        <li class="list-group-item">ANGGOTA BAYANGAN (PERCOBAAN)</li>
                     </ul>
                 </div>
             </div>
